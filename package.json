@@ -1,0 +1,26 @@
+{
+  "name": "@4ndrs/bun-package",
+  "version": "0.0.1",
+  "description": "Example bun package for installing and executing",
+  "module": "index.ts",
+  "type": "module",
+  "bin": {
+    "bun-package-test": "index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4ndrs/bun-package.git"
+  },
+  "author": "4ndrs <andres.degozaru@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "git+https://github.com/4ndrs/bun-package/issues"
+  },
+  "homepage": "https://github.com/4ndrs/bun-package#readme",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
