@@ -1,5 +1,18 @@
 # bun-package
+Project for testing the installation and execution of packages with Bun and TypeScript.
 
+To install the package from the NPM registry:
+```bash
+bun install -g @4ndrs/bun-package
+```
+
+To execute:
+```console
+$ bun-package-test
+Hello via Bun!
+```
+
+## Development
 To install dependencies:
 
 ```bash
